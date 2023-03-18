@@ -1,0 +1,72 @@
+:root {
+  --background-color: #f4f2fe;
+  --primary-color: #6b62ff;
+  --secondary-font-color: #858788;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* GLOBALLY */
+body {
+  font-family: system-ui, -apple-system;
+}
+
+/* INDEX PAGE */
+
+h2 {
+  font-size: 50px;
+  margin: 0;
+}
+
+h1 {
+  font-size: 100px;
+}
+
+h3 {
+  font-size: 25px;
+  color: var(--secondary-font-color);
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 500;
+  text-align: center;
+}
+
+section h2,
+section p {
+  text-align: left;
+}
+
+/* ABOUT PAGE */
+.paragraph {
+  font-size: 18px;
+}
+
+/* MEDIA QUERIES */
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 45px;
+  }
+
+  h2 {
+    font-size: 32px;
+  }
+
+  h3 {
+    font-size: 22px;
+  }
+
+  .hide {
+    display: none;
+  }
+
+  .center-small-device {
+    text-align: center;
+  }
+a
+  .button-small-device {
+    width: 100%;
+  }
+}
